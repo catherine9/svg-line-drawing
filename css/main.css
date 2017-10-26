@@ -1,0 +1,13 @@
+html {
+  font-family: 'Unica One', cursive;
+  background-color: #78a2b3;
+  color: #fff;
+}
+
+.unicorn-horn {
+  animation: 2s linear forwards;
+  stroke-dasharray: 200px; /* The length of the stroke */
+  stroke-dashoffset: 200px; /* The length of the stroke */
+}
+
+/* Plus a @keyframes set that animates `stroke-dashoffset` back to `0` */
