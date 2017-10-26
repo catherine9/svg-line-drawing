@@ -6,8 +6,12 @@ html {
 
 .unicorn-horn {
   animation: 2s linear forwards;
-  stroke-dasharray: 200px; /* The length of the stroke */
-  stroke-dashoffset: 200px; /* The length of the stroke */
+  stroke-dasharray: 2px; /* The length of the stroke */
+  stroke-dashoffset: 2px; /* The length of the stroke */
 }
 
 /* Plus a @keyframes set that animates `stroke-dashoffset` back to `0` */
+
+#rainbow-violet {
+  animation: 3s linear alternate;
+}
